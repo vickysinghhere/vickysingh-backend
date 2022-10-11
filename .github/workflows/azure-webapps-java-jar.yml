@@ -20,7 +20,7 @@
 name: Build and deploy JAR app to Azure Web App
 
 env:
-  AZURE_WEBAPP_NAME: your-app-name    # set this to the name of your Azure Web App
+  AZURE_WEBAPP_NAME: vickysingh-backend    # set this to the name of your Azure Web App
   JAVA_VERSION: '11'                  # set this to the Java version to use
   DISTRIBUTION: zulu                  # set this to the Java distribution
 
@@ -53,7 +53,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: java-app
-          path: '${{ github.workspace }}/target/*.jar'
+          path: './target/*.jar'
 
   deploy:
     permissions:
@@ -74,6 +74,6 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: ${{ env.AZURE_WEBAPP_NAME }}
-          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+          app-name: vickysingh-backend
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3A712B34BEA944DE8B10983A426A11D7 }}
           package: '*.jar'
