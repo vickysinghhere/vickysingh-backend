@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="target/generated-sources/annotations">
+		<attributes>
+			<attribute name="ignore_optional_problems" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="m2e-apt" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="/Users/vicky/Downloads/azure-toolkit-for-intellij/lib/azure-intellij-plugin-redis.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/vicky/Downloads/azure-toolkit-for-intellij/lib/azure-intellij-plugin-applicationinsights.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/vicky/Downloads/azure-toolkit-for-intellij/lib/azure-intellij-plugin-vm.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/vicky/Downloads/azure-toolkit-for-intellij/lib/azure-toolkit-ide-springcloud-lib-0.25.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/vicky/Downloads/azure-toolkit-for-intellij/lib/hdinsight-node-common-3.69.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/vicky/Downloads/azure-toolkit-for-intellij/lib/azure-explorer-common-3.69.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/vicky/Downloads/azure-toolkit-for-intellij/lib/azure-intellij-plugin-appservice.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/vicky/Downloads/azure-toolkit-for-intellij/lib/azure-intellij-plugin-arm.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/vicky/Downloads/azure-toolkit-for-intellij/lib/azure-intellij-plugin-containerregistry.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/vicky/Downloads/azure-toolkit-for-intellij/lib/azure-intellij-plugin-guidance.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/vicky/Downloads/azure-toolkit-for-intellij/lib/azure-intellij-plugin-springcloud.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/vicky/Downloads/azure-toolkit-for-intellij/lib/azure-intellij-resource-connector-aad.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/vicky/Downloads/azure-toolkit-for-intellij/lib/azure-intellij-resource-connector-lib.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/vicky/Downloads/azure-toolkit-for-intellij/lib/azure-sdk-reference-book.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/vicky/Downloads/azure-toolkit-for-intellij/lib/azure-toolkit-ide-containerregistry-lib-0.25.0.jar"/>
+	<classpathentry kind="src" output="target/test-classes" path="target/generated-test-sources/test-annotations">
+		<attributes>
+			<attribute name="ignore_optional_problems" value="true"/>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="m2e-apt" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
