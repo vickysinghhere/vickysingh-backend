@@ -50,4 +50,4 @@ jobs:
           app-name: 'vickysingh-backend-api'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7847C762BCAA466BA3C87834C622B5EE }}
-          package: '*.jar'
+          package: '/target/*.jar'
