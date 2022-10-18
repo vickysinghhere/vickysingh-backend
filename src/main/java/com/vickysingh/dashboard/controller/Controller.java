@@ -7,7 +7,7 @@ public class Controller {
 
     @RequestMapping("/")
     public String index() {
-        return "Greetings from Azure Spring Apps!";
+        return "Greetings from Azure Spring Apps! Yahoo";
     }
 
 }
